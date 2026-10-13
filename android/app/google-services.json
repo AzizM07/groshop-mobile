@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "333926509536",
+    "project_id": "groshop-aa80d",
+    "storage_bucket": "groshop-aa80d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333926509536:android:d4a561739bd9c45aad1985",
+        "android_client_info": {
+          "package_name": "tn.groshop.groshop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4l2ab77BdfJZlgcol_zCgbmHhh7DkZIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

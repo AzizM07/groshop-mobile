@@ -1,0 +1,5 @@
+<!-- bg_ad_label.xml (badge Annonce, jaune) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="#FFCE00" />
+    <corners android:radius="4dp" />
+</shape>
