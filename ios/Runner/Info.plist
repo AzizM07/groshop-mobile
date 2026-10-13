@@ -2,6 +2,50 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 	<dict>
+		<!-- ===================== AdMob ===================== -->
+		<!-- ID d'application iOS : ID de TEST Google. À remplacer par ton vrai ID AdMob iOS avant l'App Store. -->
+		<key>GADApplicationIdentifier</key>
+		<string>ca-app-pub-3940256099942544~1458002511</string>
+		<key>SKAdNetworkItems</key>
+		<array>
+			<dict>
+				<key>SKAdNetworkIdentifier</key>
+				<string>cstr6suwn9.skadnetwork</string>
+			</dict>
+		</array>
+
+		<!-- ===================== Google Sign-In ===================== -->
+		<key>GIDClientID</key>
+		<string>714757960599-8ofil6d0gjjl0fl4pbroivc64tqbuvg6.apps.googleusercontent.com</string>
+		<key>CFBundleURLTypes</key>
+		<array>
+			<dict>
+				<key>CFBundleURLSchemes</key>
+				<array>
+					<string>com.googleusercontent.apps.714757960599-8ofil6d0gjjl0fl4pbroivc64tqbuvg6</string>
+				</array>
+			</dict>
+		</array>
+
+		<!-- ===================== Permissions ===================== -->
+		<key>NSLocationWhenInUseUsageDescription</key>
+		<string>GROSHOP utilise votre position pour afficher les fournisseurs et adresses de livraison proches de vous.</string>
+		<key>NSPhotoLibraryUsageDescription</key>
+		<string>GROSHOP a besoin d'accéder à vos photos pour ajouter des images à vos produits et à votre profil.</string>
+		<key>NSCameraUsageDescription</key>
+		<string>GROSHOP a besoin de la caméra pour photographier vos produits.</string>
+
+		<!-- ===================== url_launcher ===================== -->
+		<key>LSApplicationQueriesSchemes</key>
+		<array>
+			<string>https</string>
+			<string>http</string>
+			<string>tel</string>
+			<string>mailto</string>
+			<string>whatsapp</string>
+		</array>
+
+		<!-- ===================== Configuration Flutter ===================== -->
 		<key>CADisableMinimumFrameDurationOnPhone</key>
 		<true/>
 		<key>CFBundleDevelopmentRegion</key>
@@ -68,14 +112,5 @@
 		</array>
 		<key>UIStatusBarHidden</key>
 		<false/>
-		<key>CFBundleURLTypes</key>
-<array>
-    <dict>
-        <key>CFBundleURLSchemes</key>
-        <array>
-            <string>com.googleusercontent.apps.714757960599-8ofil6d0gjjl0fl4pbroivc64tqbuvg6</string>
-        </array>
-    </dict>
-</array>
 	</dict>
 </plist>
